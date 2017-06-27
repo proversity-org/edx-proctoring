@@ -5,16 +5,6 @@
       Are you sure that you want to submit your timed exam?
     {% endblocktrans %}
   </h3>
-  <p>
-    {% blocktrans %}
-      Make sure that you have selected "Submit" for each problem before you submit your exam.
-    {% endblocktrans %}
-  </p>
-  <p>
-    {% blocktrans %}
-      After you submit your exam, your exam will be graded.
-    {% endblocktrans %}
-  </p>
   <button type="button" name="submit-proctored-exam" class="exam-action-button btn btn-pl-primary btn-base" data-action="submit" data-exam-id="{{exam_id}}" data-change-state-url="{{change_state_url}}">
     {% blocktrans %}
       Yes, submit my timed exam.
